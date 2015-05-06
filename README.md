@@ -32,3 +32,5 @@ Features included are:
       - Geodesic ready
   * Point to point directions
       - Display calculated direction based on origin and destination coordinates and driving mode type (i.e. walking or driving)
+
+Note: extension loggin (console.log) was kept on purpose but is commented
