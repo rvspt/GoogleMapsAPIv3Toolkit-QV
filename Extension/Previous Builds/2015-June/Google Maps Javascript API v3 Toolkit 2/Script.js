@@ -26,12 +26,14 @@ loadLibs();
 
 function extension_Init()
 {
-	// console.log("Hello");
+	console.log("Hello");
 	// Qva.AddExtension('Google Maps Javascript API v3 Toolkit 2', function(){ //(1) change name here of the extension accordingly
-		 // console.log("Hi");
+		 console.log("Hi");
 		// var _this = this;
 		_this.ExtSettings = {};
 		extensionProperties(); //initializing the extension's main properties
+
+
 
 		extensionCSS(); //loading additional CSS files;
 
@@ -514,8 +516,8 @@ function drawMarkers(marker_custom_icon_url, multi_icon_markers, marker_is_dragg
 ************************************/
 function drawShapes(activate_Shapes, activate_Circles, activate_markers, stroke_opacity, stroke_weight, fill_opacity, color1, color2, _rows, _overallthis){
 	// console.log("I am drawing shapes");
-	 console.log(activate_Shapes);
-	 console.log(activate_Circles);
+	// console.log(activate_Shapes);
+	// console.log(activate_Circles);
 	// console.log(activate_markers);
 	// console.log(stroke_opacity);
 	// console.log(stroke_weight);

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExtensionObject Label="Google Maps Javascript API v3 Toolkit 2" Description="Google Maps Javascript API v3 Toolkit 2" PropertiesPage="PropertiesLayout.qvpp" PageHeight="200000">
+   <Dimension Label="Latitude" Initial="Latitude" DropTarget="Latitude" />
+   <Dimension Label="Longitude" Initial="Longitude" DropTarget="Longitude" />
+   <Measurement Label="Measure 1" Initial="Sum(Measure)"/>
+   <Text Label="API Key" Type="text" Initial="" Expression="(optional)"/>
+   <Text Label="Default Zoom" Type="text" Initial="" Expression="4"/>
+   <Text Label="Show Roadmap" Type="checkbox" Initial="" Expression="0"/>
+   <Text Label="Show Satellite" Type="checkbox" Initial="" Expression="0"/>
+   <Text Label="Show Hybrid" Type="checkbox" Initial="" Expression="0"/>
+   <Text Label="Show Terrain" Type="checkbox" Initial="" Expression="0"/>
+   <Text Label="Allow 45º Imagery" Type="checkbox" Initial="" Expression="0"/>
+   <Text Label="Allow Street View" Type="checkbox" Initial="" Expression="0"/>
+   <Text Label="Activate Markers" Type="checkbox" Initial="" Expression="0"/>
+   <Measurement Label="Info Window" Initial="'=Info Window text goes here in HTML'"/>
+   <Text Label="Custom Icon URL" Type="text" Initial="" Expression="(optional)"/>
+   <Measurement Label="Marker Title" Initial="Concat(Title)"/>
+   <Measurement Label="Marker Label" Initial="Concat(Label)"/>
+   <Text Label="Label H Position" Type="text" Initial="" Expression="0"/>
+   <Text Label="Label V Position" Type="text" Initial="" Expression="0"/>
+   <Text Label="Cluster Markers" Type="checkbox" Initial="" Expression="0"/>
+   <Text Label="Cluster Size" Type="text" Initial="" Expression="30"/>
+   <Text Label="Max Cluster Zoom" Type="text" Initial="" Expression="15"/>
+   <Text Label="Force Multi-Icon Markers" Type="checkbox" Initial="" Expression="0"/>
+   <Measurement Label="Icons path" Initial="'=Icon'"/>
+   <Text Label="Allow Move Markers" Type="checkbox" Initial="" Expression="0"/>
+   <Text Label="Activate Shapes" Type="checkbox" Initial="" Expression="0"/>
+   <Measurement Label="Shape by" Initial="Concat(Shape)"/>
+   <Text Label="Create Circles" Type="checkbox" Initial="" Expression="0"/>
+   <Measurement Label="Circle Radius" Initial="20" />
+   <Measurement Label="Info Window" Initial="'=Info Window text goes here in HTML'"/>
+   <Text Label="Stroke Opacity" Type="text" Initial="" Expression="0.8"/>
+   <Text Label="Stroke Weight" Type="text" Initial="" Expression="2"/>
+   <Measurement Label="Stroke Calc Color" Initial="'#C0C0C0'" />
+   <Text Label="Fill Opacity" Type="text" Initial="" Expression="0.35"/>
+   <Measurement Label="Fill Calc Color" Initial="'#808080'" />
+   <Text Label="Activate Heatmap" Type="checkbox" Initial="" Expression="0"/>
+   <Measurement Label="Weight" Initial="sum(Value)"/>
+   <Text Label="Heatmap Opacity" Type="text" Initial="" Expression="0.35"/>
+   <Text Label="Heatmap Radius" Type="text" Initial="" Expression="10"/>
+   <Text Label="Activate Lines" Type="checkbox" Initial="" Expression="0"/>
+   <Measurement Label="Group Line by" Initial="Concat(Shape)"/>
+   <Measurement Label="Line Calc Color" Initial="'#C0C0C0'"/>
+   <Measurement Label="Line Weight" Initial="1"/>
+   <Text Label="Line Opacity" Type="text" Initial="" Expression="1"/>
+   <Text Label="Activate Geodesic" Type="checkbox" Initial="" Expression="0"/>
+   <Text Label="Point to Point Directions" Type="checkbox" Initial="" Expression="0"/>
+   <Text Label="Start Lat" Type="text" Initial="" Expression="0"/>
+   <Text Label="Start Long" Type="text" Initial="" Expression="0"/>
+   <Text Label="End Lat" Type="text" Initial="" Expression="0"/>
+   <Text Label="End Long" Type="text" Initial="" Expression="0"/>
+   <Text Label="Driving Mode" Type="text" Initial="" Expression="DRIVING"/>
+   <Text Label="Color 1" Type="color"/>
+   <Text Label="Color 2" Type="color"/>
+   <Text Label="Color 3" Type="color"/>
+	<Initiate Name="Chart.Title" value="Extension Template" />
+	<Initiate Name="Caption.Text" Value="Extension Template" />
+	<Initiate Name="Chart.BgColor.ColorHex" value="#EBEBEB" />
+  </ExtensionObject>

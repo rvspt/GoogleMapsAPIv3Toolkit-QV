@@ -1,0 +1,340 @@
+<div class="ToolWindow-MainBody" avq="foldOutMenu:." style="overflow: visible !important; float: left;">
+	<div class="prop-accordion" avq="accordion:.">
+		<h3 class="prop-h3 accordion-shadow">
+			<a href="#">
+				Basic Configuration
+			</a>
+		</h3>
+		<div class="prop-grid_container accordion-shadow-enabler" style="overflow:auto;">
+			<div class="prop-grid_clear prop-grid_top-vertical-spacer-12px prop-grid_last"></div>
+			
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Latitude</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_span-7' avq='prop_dynamicDropdown:.Chart.Dimension.0.Field'></div>
+				<div class='prop-width-28px' propicontype='tool' avq='prop_dlgbuttonjqui:.Chart.Dimension.0:ExtensionDimDialog.qvpp'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Longitude</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_span-7' avq='prop_dynamicDropdown:.Chart.Dimension.1.Field'></div>
+				<div class='prop-width-28px' propicontype='tool' avq='prop_dlgbuttonjqui:.Chart.Dimension.1:ExtensionDimDialog.qvpp'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Measure 1</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_span-7 prop-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Expression.0.0.Definition'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>API Key</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='popup-grid_span-7 popup-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Text.0.Content'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Default Zoom</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='popup-grid_span-7 popup-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Text.1.Content'></div>
+			</div><br />
+		</div>
+		
+
+
+		<h3 class="prop-h3 accordion-shadow">
+			<a href="#">
+				Map Types
+			</a>
+		</h3>
+		<div class="prop-grid_container accordion-shadow-enabler" style="overflow:auto;">
+			<div class="prop-grid_clear prop-grid_top-vertical-spacer-12px prop-grid_last"></div>
+
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Show Roadmap</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_clear prop-grid_span-1' avq='prop_checkbox:.Chart.Text.2.Content'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Show Satellite</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_clear prop-grid_span-1' avq='prop_checkbox:.Chart.Text.3.Content'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Show Hybrid</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_clear prop-grid_span-1' avq='prop_checkbox:.Chart.Text.4.Content'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Show Terrain</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_clear prop-grid_span-1' avq='prop_checkbox:.Chart.Text.5.Content'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Allow 45º Imagery</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_clear prop-grid_span-1' avq='prop_checkbox:.Chart.Text.6.Content'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Allow Street View</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_clear prop-grid_span-1' avq='prop_checkbox:.Chart.Text.7.Content'></div>
+			</div><br />
+		</div>
+		
+
+
+		<h3 class="prop-h3 accordion-shadow">
+			<a href="#">
+				Markers
+			</a>
+		</h3>
+		<div class="prop-grid_container accordion-shadow-enabler" style="overflow:auto;">
+			<div class="prop-grid_clear prop-grid_top-vertical-spacer-12px prop-grid_last"></div>
+
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Activate Markers</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_clear prop-grid_span-1' avq='prop_checkbox:.Chart.Text.8.Content'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Info Window</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_span-7 prop-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Expression.1.0.Definition'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Custom Icon URL</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='popup-grid_span-7 popup-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Text.9.Content'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Marker Title</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_span-7 prop-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Expression.2.0.Definition'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Marker Label</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_span-7 prop-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Expression.3.0.Definition'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Label H Position</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='popup-grid_span-7 popup-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Text.10.Content'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Label V Position</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='popup-grid_span-7 popup-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Text.11.Content'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Cluster Markers</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_clear prop-grid_span-1' avq='prop_checkbox:.Chart.Text.12.Content'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Cluster Size</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='popup-grid_span-7 popup-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Text.13.Content'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Max Cluster Zoom</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='popup-grid_span-7 popup-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Text.14.Content'></div>
+			</div><br />
+		</div>
+		
+
+
+		<h3 class="prop-h3 accordion-shadow">
+			<a href="#">
+				Markers - Additional Configurations
+			</a>
+		</h3>
+		<div class="prop-grid_container accordion-shadow-enabler" style="overflow:auto;">
+			<div class="prop-grid_clear prop-grid_top-vertical-spacer-12px prop-grid_last"></div>
+
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Force Multi-Icon Markers</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_clear prop-grid_span-1' avq='prop_checkbox:.Chart.Text.15.Content'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Icons path</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_span-7 prop-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Expression.4.0.Definition'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Allow Move Markers</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_clear prop-grid_span-1' avq='prop_checkbox:.Chart.Text.16.Content'></div>
+			</div><br />
+		</div>
+		
+
+
+		<h3 class="prop-h3 accordion-shadow">
+			<a href="#">
+				Shapes and Circles
+			</a>
+		</h3>
+		<div class="prop-grid_container accordion-shadow-enabler" style="overflow:auto;">
+			<div class="prop-grid_clear prop-grid_top-vertical-spacer-12px prop-grid_last"></div>
+
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Activate Shapes</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_clear prop-grid_span-1' avq='prop_checkbox:.Chart.Text.17.Content'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Shape by</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_span-7 prop-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Expression.5.0.Definition'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Create Circles</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_clear prop-grid_span-1' avq='prop_checkbox:.Chart.Text.18.Content'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Circle Radius</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_span-7 prop-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Expression.6.0.Definition'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Info Window</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_span-7 prop-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Expression.7.0.Definition'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Stroke Opacity</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='popup-grid_span-7 popup-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Text.19.Content'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Stroke Weight</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='popup-grid_span-7 popup-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Text.20.Content'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Stroke Calc Color</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_span-7 prop-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Expression.8.0.Definition'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Fill Opacity</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='popup-grid_span-7 popup-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Text.21.Content'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Fill Calc Color</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_span-7 prop-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Expression.9.0.Definition'></div>
+			</div><br />
+		</div>
+		
+
+
+		<h3 class="prop-h3 accordion-shadow">
+			<a href="#">
+				Heatmaps
+			</a>
+		</h3>
+		<div class="prop-grid_container accordion-shadow-enabler" style="overflow:auto;">
+			<div class="prop-grid_clear prop-grid_top-vertical-spacer-12px prop-grid_last"></div>
+
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Activate Heatmap</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_clear prop-grid_span-1' avq='prop_checkbox:.Chart.Text.22.Content'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Weight</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_span-7 prop-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Expression.10.0.Definition'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Heatmap Opacity</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='popup-grid_span-7 popup-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Text.23.Content'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Heatmap Radius</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='popup-grid_span-7 popup-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Text.24.Content'></div>
+			</div><br />
+		</div>
+		
+
+
+		<h3 class="prop-h3 accordion-shadow">
+			<a href="#">
+				Lines
+			</a>
+		</h3>
+		<div class="prop-grid_container accordion-shadow-enabler" style="overflow:auto;">
+			<div class="prop-grid_clear prop-grid_top-vertical-spacer-12px prop-grid_last"></div>
+
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Activate Lines</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_clear prop-grid_span-1' avq='prop_checkbox:.Chart.Text.25.Content'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Group Line by</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_span-7 prop-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Expression.11.0.Definition'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Line Calc Color</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_span-7 prop-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Expression.12.0.Definition'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Line Weight</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_span-7 prop-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Expression.13.0.Definition'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Line Opacity</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='popup-grid_span-7 popup-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Text.26.Content'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Activate Geodesic</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_clear prop-grid_span-1' avq='prop_checkbox:.Chart.Text.27.Content'></div>
+			</div><br />
+		</div>
+		
+
+
+		<h3 class="prop-h3 accordion-shadow">
+			<a href="#">
+				Point to Point Directions
+			</a>
+		</h3>
+		<div class="prop-grid_container accordion-shadow-enabler" style="overflow:auto;">
+			<div class="prop-grid_clear prop-grid_top-vertical-spacer-12px prop-grid_last"></div>
+
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Point to Point Directions</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_clear prop-grid_span-1' avq='prop_checkbox:.Chart.Text.28.Content'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Start Lat</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='popup-grid_span-7 popup-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Text.29.Content'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Start Long</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='popup-grid_span-7 popup-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Text.30.Content'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>End Lat</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='popup-grid_span-7 popup-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Text.31.Content'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>End Long</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='popup-grid_span-7 popup-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Text.32.Content'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Driving Mode</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='popup-grid_span-7 popup-grid_last' style='width:94%;' avq='prop_editexpression:.Chart.Text.33.Content'></div>
+			</div><br />
+		</div>
+		
+
+
+		<h3 class="prop-h3 accordion-shadow">
+			<a href="#">
+				Colors
+			</a>
+		</h3>
+		<div class="prop-grid_container accordion-shadow-enabler" style="overflow:auto;">
+			<div class="prop-grid_clear prop-grid_top-vertical-spacer-12px prop-grid_last"></div>
+
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Color 1</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_span-1 prop-grid_last' propicontype='singlecolor' avq='prop_dlgbutton:.Chart.Text.34.Content:Color.qvpp'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Color 2</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_span-1 prop-grid_last' propicontype='singlecolor' avq='prop_dlgbutton:.Chart.Text.35.Content:Color.qvpp'></div>
+			</div><br />
+			<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' avq='prop_label'>Color 3</div>
+			<div class='prop-grid_span-10 prop-grid_last'>
+				<div class='prop-grid_span-1 prop-grid_last' propicontype='singlecolor' avq='prop_dlgbutton:.Chart.Text.36.Content:Color.qvpp'></div>
+			</div><br />
+
+		</div>
+
+
+
+		<h3 class="prop-h3 accordion-shadow" avq="activeAccordionHeader:.:GenericPresentationFoldout.qvpp">
+			<a href="#">Presentation</a>
+		</h3>
+		<div class="prop-grid_container accordion-shadow-enabler" avq="panel::Layout.qvpp"></div>
+		<h3 class="prop-h3 accordion-shadow" avq="activeAccordionHeader::PropertiesCaptionFoldout.qvpp">
+			<a href="#">Caption</a>
+		</h3>
+		<div class="prop-grid_container accordion-shadow-enabler" avq="panel::Caption.qvpp"></div>
+		<h3 class="prop-h3 accordion-shadow" avq="activeAccordionHeader:.:PropertiesOptionsFoldout.qvpp">
+			<a href="#">Options</a>
+		</h3>
+		<div class="prop-grid_container accordion-shadow-enabler" avq="panel::Options.qvpp"></div>
+	</div>
+	<span class="bottom-gap"></span>
+</div>
